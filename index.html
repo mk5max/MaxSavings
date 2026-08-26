@@ -4,22 +4,128 @@
     <meta charset="UTF-8">
     <title>Datenschutzerklärung - MaxSavings</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
-        h1 { font-size: 24px; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0f19;
+            color: #e2e8f0;
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.7;
+        }
+        header {
+            border-bottom: 2px solid #00f0ff33;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: #00f0ff15;
+            color: #00f0ff;
+            border: 1px solid #00f0ff44;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 26px;
+            color: #ffffff;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 15px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 16px;
+            color: #00f0ff;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            border-left: 3px solid #00f0ff;
+            padding-left: 10px;
+        }
+        p {
+            margin: 0 0 14px 0;
+            color: #cbd5e1;
+        }
+        strong {
+            color: #ffffff;
+        }
+        .card {
+            background: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .contact-box {
+            background: #111827;
+            border: 1px solid #00f0ff33;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 35px;
+            text-align: center;
+        }
+        .contact-box p {
+            margin-bottom: 15px;
+        }
+        a.email-link {
+            display: inline-block;
+            color: #0b0f19;
+            background-color: #00f0ff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        a.email-link:hover {
+            background-color: #38bdf8;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 13px;
+            color: #64748b;
+            border-top: 1px solid #1f2937;
+            padding-top: 15px;
+        }
     </style>
 </head>
 <body>
-    <h1>Datenschutzerklärung</h1>
-    <p><strong>App:</strong> MaxSavings</p>
-    <p>Der Schutz deiner persönlichen Daten ist uns ein wichtiges Anliegen. Nachfolgend informieren wir dich über den Umgang mit Daten bei der Nutzung unserer App.</p>
-    
-    <h2>1. Keine Datenerhebung und -speicherung</h2>
-    <p>Die App <strong>MaxSavings</strong> arbeitet vollständig lokal auf deinem Endgerät. Es werden zu keinem Zeitpunkt personenbezogene Daten erhoben, verarbeitet oder an externe Server übertragen.</p>
-    
-    <h2>2. Lokale Datenspeicherung</h2>
-    <p>Alle von dir eingegebenen Finanzdaten, Statistiken und Einstellungen werden ausschließlich lokal auf deinem Gerät gespeichert.</p>
-    
-    <h2>3. Kontakt</h2>
-    <p>Bei Fragen zum Datenschutz kannst du dich per E-Mail an den Entwickler wenden.</p>
+    <header>
+        <div class="badge">MaxSavings Privacy Policy</div>
+        <h1>Datenschutzerklärung</h1>
+        <p class="subtitle">Informationen zum Schutz deiner persönlichen Daten</p>
+    </header>
+
+    <div class="card">
+        <h2>1. Keine Datenerhebung und -speicherung</h2>
+        <p>Die App <strong>MaxSavings</strong> arbeitet vollständig lokal auf deinem Endgerät. Es werden zu keinem Zeitpunkt personenbezogene Daten erhoben, verarbeitet oder an externe Server übertragen.</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Lokale Datenspeicherung</h2>
+        <p>Alle von dir eingegebenen Finanzdaten, Statistiken und Einstellungen werden ausschließlich lokal auf deinem Gerät gespeichert und verlassen dieses zu keinem Zeitpunkt.</p>
+    </div>
+
+    <div class="contact-box">
+        <h2>3. Kontakt</h2>
+        <p>Bei Fragen oder Anliegen zum Datenschutz kannst du dich direkt per E-Mail an den Entwickler wenden:</p>
+        <a class="email-link" href="mailto:maex.wav@icloud.com">maex.wav@icloud.com</a>
+    </div>
+
+    <footer>
+        MaxSavings &bull; Local First Financial Tracking
+    </footer>
 </body>
 </html>
